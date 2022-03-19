@@ -28,3 +28,19 @@ Memeory Usage
 -> 이 프로세스의 metadata가 pcb에 저장
 ```
 
+### context switching
+```
+여러 프로세스가 처리되야 하는 상황에서 
+cpu가 이전 프로세스 상태를 pcb에 보관하고, 다음으로 진행할 프로세스 정보를 pcb에 읽어 레지스터에 적재하는 과정
+```
+- 인터럽트 발생, 실행 중인 cpu 사용 허가시간으 모두 소모, 입출력을 위해 대기해야하는 경우 context switching 발생
+
+### context switching overhead
+```
+과부하라는 뜻에서 벗어나 생각하자
+
+프로세스를 수행하다가 입출력 이벤트가 발생해서 process waiting 상태로 변경
+이때 cpu를 그냥 놀게 놔두는것이 아니라 다른 프로세스르 실행하도록!
+
+즉 cpu가 놀지 않고 다른 일을 하도록 다른 프로세스를 실행 및 context switching
+```
