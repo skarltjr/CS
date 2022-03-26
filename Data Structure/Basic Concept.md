@@ -17,6 +17,7 @@
 - 삽입과 삭제가 빈번하다면 Linked List 사용이 효율적
 - 데이터 조회가 빈번하다면 Array가 효율적
 ```
+------
 
 ### ⭐️ Hash table
 #### Hash table이란
