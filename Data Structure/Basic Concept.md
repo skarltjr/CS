@@ -55,3 +55,7 @@
 - 들어온 순서 무시
 ```
 - 안정 해시 : https://github.com/skarltjr/Memory_Write_Record/issues/61#issuecomment-1028931741
+```
+안정 해시는 : 해시 테이블 크기가 조정될 때 평균적으로 k/n개의 키만 재배치하는 기술
+여기서 k는 키의 개수 / n은 슬롯(서버)의 개수
+```
