@@ -161,8 +161,9 @@
 - <img width="747" alt="스크린샷 2022-03-27 오후 4 30 30" src="https://user-images.githubusercontent.com/62214428/160271529-44ce387a-2ec3-42b4-a39b-679c1a710191.png">
 - 최대값이라면 두 자식 중 더 큰값과 swap
 - <img width="719" alt="스크린샷 2022-03-27 오후 4 31 23" src="https://user-images.githubusercontent.com/62214428/160271534-ae18319e-38e2-4ffd-ba6f-b0dfe024b98a.png">
+- <img width="668" alt="스크린샷 2022-03-27 오후 4 31 26" src="https://user-images.githubusercontent.com/62214428/160271539-9fdaf07e-7d78-4de8-8631-2ff6bf095c35.png">
 - <img width="725" alt="스크린샷 2022-03-27 오후 4 31 28" src="https://user-images.githubusercontent.com/62214428/160271542-720c6121-a828-4005-8141-33d56e899f57.png">
-- <img width="668" alt="스크린샷 2022-03-27 오후 4 31 26" src="https://user-images.githubusercontent.com/62214428/160271539-9fdaf07e-7d78-4de8-8631-2ff6bf095c35.png">
+
 
 
 -----
