@@ -9,6 +9,16 @@ ip주소를 MAC주소로 변환해준다
 단일 디바이스의 고유 식별자로 디바이스마다 존재하는 nic(network interface card)마다 할당
 2계층에선 ip주소를 사용할 수 없으며 peer to peer간 접근을 위해 필요하다
 ```
+### LAN이란?
+```
+local address network의 약자로
+근걸 통신망 / 가까운 지역을 묶는 네트워크
+
+ip는 network address / host address로 구성되어있다
+lan이란 같은 ip대역을 사용하는. 즉 network address가 같은 집단을 말한다.
+
+그리고 이 동일 네트워크내에서 디바이스간 통신을 위해 mac주소가 사용된다
+```
 
 ### ARP
 ```
