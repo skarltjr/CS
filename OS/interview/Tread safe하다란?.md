@@ -13,6 +13,7 @@
 1. stateless
 - 현재 factorial() 매서드는 stateless
 - 어떠한 input이 들어오든 input을 활용할 뿐 매서드 자체에서 의존적인 변수나 상태를 보존하고있지 않다.
+- 해당 매서드로 하여금 무언가를 수정(상태를 변화)하지 않는다
 public class MathUtils {
     
     public static BigInteger factorial(int number) {
