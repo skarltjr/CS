@@ -33,7 +33,7 @@ Garbage collection을 수행하는 주체로
 
 4. CMS GC
 - initial mark : stop the world 발생 / 클래스 로더에 가장 가까운 객체 중 살아있는 객체를 찾는다
-- concurrent mark : stop the world가 발생 x / initial mark에서 찾은 객체들을 참조하는 객체가 살아있는지 추가 파악
+- concurrent mark : stop the world가 발생 x / initial mark에서 찾은 객체들이 참조하는 객체가 살아있는지 추가 파악
 - remark : stop the world발생 / concurrent mark에서 새로 추가되거나 참조 끊긴 객체를 확인
 - concurrent : stop the world 발생 x / 사용중인 객체를 제외한 나머지 쓰레기를 회수한다.
 ```
