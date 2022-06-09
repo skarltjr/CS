@@ -10,3 +10,4 @@
 5. tcp - 3 way handshake를 통해 연결을 요청 및 연결
 6. http 통신은 클라이언트 연결 - 응답 - 연결 종료로 요청에 대한 응답을 받은 후 4 way handshake를 통한 연결 종료
 ```
+- 참고 : https://velog.io/@khy226/브라우저에-url을-입력하면-어떤일이-벌어질까
