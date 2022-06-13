@@ -29,6 +29,7 @@ http프로토콜은 stateless
 ```
 그러나 토큰과 쿠키의 문제점은 바로 탈취다.
 JWT의 경우 access token의 시간을 짧게가져가서 탈취를 당해도 refresh token을 통해 대응할 수 있으며
-refresh token의 탈취 경우에도 기존 access token과 새로만들어진 access token이 다르지만 
-기존의 access token의 유효시간이 만료되지 않았다면 이는 탈취로 가정하여 모두 파기함으로써 대응한다
+refresh token의 탈취 경우에도 기존 access token가 만료되지 않았는데 refresh token을 통해 재발급을 요청한다면
+이는 탈취로 판단하여 파기
+
 ```
